@@ -1,7 +1,7 @@
 .planner {
   background-image: url("./../assets/planner.png");
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .button {
@@ -39,3 +39,22 @@
 .chat:hover {
   height: 40px;
 }
+
+.bottom,
+.side {
+  background-color: white;
+  position: fixed;
+}
+
+// .bottom {
+//   width: 100vw;
+//   height: 108px;
+//   bottom: 0;
+// }
+
+// .side {
+//   width: 19vw;
+//   height: 100vh;
+//   right: 0;
+//   top: 0;
+// }
