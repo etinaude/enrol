@@ -58,13 +58,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/button */ "bTqV");
 /* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/toolbar */ "/t3+");
 /* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/icon */ "NFeN");
-/* harmony import */ var _angular_material_badge__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/badge */ "TU8p");
-/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/form-field */ "kmnG");
-/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/chips */ "A5z7");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common */ "ofXK");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/router */ "tyNb");
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/card */ "Wp6s");
-/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/tooltip */ "Qu3c");
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/tooltip */ "Qu3c");
+/* harmony import */ var _angular_material_badge__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/badge */ "TU8p");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/form-field */ "kmnG");
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/chips */ "A5z7");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/card */ "Wp6s");
 
 
 
@@ -80,18 +80,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function AppComponent_mat_card_52_mat_icon_12_Template(rf, ctx) { if (rf & 1) {
+function AppComponent_mat_card_44_mat_icon_12_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "star");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } }
-function AppComponent_mat_card_52_Template(rf, ctx) { if (rf & 1) {
+function AppComponent_mat_card_44_Template(rf, ctx) { if (rf & 1) {
     const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-card");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-card-header");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "div", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "mat-card-title", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_mat_card_52_Template_mat_card_title_click_3_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r7); const course_r3 = ctx.$implicit; const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r6.showModal(course_r3); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_mat_card_44_Template_mat_card_title_click_3_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r7); const course_r3 = ctx.$implicit; const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r6.showModal(course_r3); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "mat-card-subtitle");
@@ -99,12 +99,13 @@ function AppComponent_mat_card_52_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](9, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, AppComponent_mat_card_52_mat_icon_12_Template, 2, 0, "mat-icon", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, AppComponent_mat_card_44_mat_icon_12_Template, 2, 0, "mat-icon", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "button", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, " Add to cart ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "mat-card-content");
@@ -112,7 +113,7 @@ function AppComponent_mat_card_52_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "mat-card-actions");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "button", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_mat_card_52_Template_button_click_18_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r7); const course_r3 = ctx.$implicit; const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r8.showModal(course_r3); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AppComponent_mat_card_44_Template_button_click_18_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r7); const course_r3 = ctx.$implicit; const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r8.showModal(course_r3); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, " More Info ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "button", 4);
@@ -133,13 +134,16 @@ function AppComponent_mat_card_52_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", course_r3.points, " points ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassMap"]("req-" + course_r3.needReq);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", course_r3.prereq, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", course_r3.stars);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("disabled", course_r3.complete);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("matTooltip", course_r3.complete ? "Already complete" : "Available");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", course_r3.status, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", course_r3.description, "");
 } }
 class AppComponent {
@@ -154,8 +158,9 @@ class AppComponent {
                 description: 'Introduces students to key tools, methods and processes of design planning, strategy and practice. Students learn to apply design thinking and technologies to real world contexts and issues. A course of studio–based study focused on a series of creative, hands-on projects and supported by lectures. The emphasis is on human-centred design and interventions.',
                 stars: Array(5).fill(4),
                 required: true,
-                prereq: '',
+                prereq: ' ',
                 complete: true,
+                status: 'enrolled',
             },
             {
                 title: 'DESIGN 101',
@@ -164,8 +169,9 @@ class AppComponent {
                 description: 'Investigates design as a driver and responder to social needs in contemporary and historic contexts. Students will understand relevant technologies and their contexts. The course explicitly considers planetary limits and sustainability, as well as design and business considered in a social-technological, tikanga Māori, financial, cultural-ethical and environmental context.',
                 stars: Array(4).fill(4),
                 required: true,
-                prereq: '',
+                prereq: ' ',
                 complete: true,
+                status: 'enrolled',
             },
             {
                 title: 'DESIGN 200',
@@ -176,6 +182,8 @@ class AppComponent {
                 required: true,
                 prereq: 'Prerequisite: DESIGN 100, 101',
                 complete: false,
+                needReq: 'false',
+                status: 'Add to cart',
             },
             {
                 title: 'DESIGN 201',
@@ -186,6 +194,44 @@ class AppComponent {
                 required: true,
                 prereq: 'Prerequisite: DESIGN 100, 101',
                 complete: false,
+                needReq: 'false',
+                status: 'Add to cart',
+            },
+            {
+                title: 'DESIGN 300',
+                subTitle: 'Design Research Methodologies',
+                points: 15,
+                description: 'Introduction to a range of key design methodologies that inform contemporary design thinking, research and practice, within New Zealand, with reference to Māori philosophies of making and community. Drawing on methodological principles, students learn how to develop design strategies, apply design processes and test their design concepts. Consideration will be given to the phasing and planning of design investigations from data analytics to design concepts to practical methods and proposed solutions.',
+                stars: Array(1).fill(4),
+                required: true,
+                prereq: 'Prerequisite: DESIGN 200, 201, 300 and 90 points from DESIGN 210-243',
+                complete: false,
+                needReq: 'true',
+                status: 'Concession',
+            },
+            {
+                title: 'DESIGN 301',
+                subTitle: 'Advanced Design Methods Capstone',
+                points: 45,
+                description: 'An advanced course in which students complete a major design project in collaboration with a local design professional. The task is to develop a design strategy in response to a real-world issue. Students will engage in research and practical studio work; use multiple tools, technologies and methods; and work in teams. Outcomes will be exhibited, and critiqued by design professionals.',
+                stars: Array(1).fill(4),
+                required: true,
+                prereq: 'Prerequisite: DESIGN 200, 201, 300 and 90 points from DESIGN 210-243',
+                complete: false,
+                needReq: 'true',
+                status: 'Concession',
+            },
+            {
+                title: 'DESIGN 302',
+                subTitle: 'Critical-Technical Positioning',
+                points: 15,
+                description: 'An advanced course in which students produce a written account of their capstone project (DESIGN 301). The account will take the form of a 5,000 word essay or technical report, with visual evidence. It will provide a critical contextualisation of the capstone project within the field of design, and use design theory to describe the project from concept to execution.',
+                stars: Array(1).fill(4),
+                required: true,
+                prereq: 'DESIGN 200, 201, 300',
+                complete: false,
+                needReq: 'true',
+                status: 'Concession',
             },
         ];
     }
@@ -194,7 +240,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialog"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 57, vars: 8, consts: [["autosize", "", 1, "side-container"], ["mode", "side", 1, "example-sidenav"], ["drawer", ""], ["matRipple", ""], ["mat-raised-button", "", "color", "primary"], [1, "body"], ["mat-icon-button", "", "aria-label", "Example icon-button with menu icon", 1, "example-icon"], [3, "click"], [1, "example-spacer"], ["mat-icon-button", "", "aria-label", "Example icon-button with heart icon", 1, "cart"], ["matBadge", "1"], ["mat-icon-button", "", "aria-label", "Example icon-button with share icon", 1, "example-icon"], ["mat-button", ""], ["aria-hidden", "false", "aria-label", "Example pencil icon"], [1, "center"], ["chipList", ""], [3, "selectable", "removable"], ["matChipRemove", ""], ["placeholder", "Filter courses", 3, "matChipInputFor"], [1, "courses"], [3, "class", 4, "ngFor", "ngForOf"], ["mat-fab", "", "color", "primary", 1, "fab"], ["mat-card-avatar", "", 1, "example-header-image"], [4, "ngFor", "ngForOf"], ["mat-raised-button", "", "color", "primary", 1, "enrol-now", 3, "disabled", "matTooltip"], ["mat-raised-button", "", "color", "primary", 3, "click"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 49, vars: 4, consts: [["autosize", "", 1, "side-container"], ["mode", "side", 1, "example-sidenav"], ["drawer", ""], ["matRipple", ""], ["mat-raised-button", "", "color", "primary"], [1, "body"], ["mat-icon-button", "", "aria-label", "Example icon-button with menu icon", 1, "example-icon"], [3, "click"], [1, "example-spacer"], ["mat-icon-button", "", "matTooltip", "Enrolment cart", "aria-label", "Example icon-button with heart icon", 1, "cart"], ["matBadge", "1"], ["mat-icon-button", "", "aria-label", "Example icon-button with share icon", 1, "example-icon"], ["mat-button", ""], ["aria-hidden", "false", "aria-label", "Example pencil icon"], [1, "center"], ["chipList", ""], [3, "selectable", "removable"], ["matChipRemove", ""], ["placeholder", "Filter courses", 3, "matChipInputFor"], [1, "courses"], [3, "class", 4, "ngFor", "ngForOf"], ["mat-fab", "", "color", "primary", "matTooltip", "Get help", 1, "fab"], ["mat-card-avatar", "", 1, "example-header-image"], [4, "ngFor", "ngForOf"], ["mat-raised-button", "", "color", "primary", 1, "enrol-now", 3, "disabled"], ["mat-raised-button", "", "color", "primary", 3, "click"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-drawer-container", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-drawer", 1, 2);
@@ -256,45 +302,29 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, "cancel");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "mat-chip", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, "Design ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "mat-icon", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](45, "cancel");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](42, "input", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "mat-chip", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](47, "Met Pre-requirements ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "mat-icon", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, "cancel");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](43, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](44, AppComponent_mat_card_44_Template, 24, 13, "mat-card", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](50, "input", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](52, AppComponent_mat_card_52_Template, 24, 11, "mat-card", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "button", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "mat-icon");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](55, "help");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "button", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "mat-icon");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](47, "help");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](56, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](48, "router-outlet");
     } if (rf & 2) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](37);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](38);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("selectable", true)("removable", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("selectable", true)("removable", true);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("selectable", true)("removable", true);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("matChipInputFor", _r1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.courses);
-    } }, directives: [_angular_material_sidenav__WEBPACK_IMPORTED_MODULE_3__["MatDrawerContainer"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_3__["MatDrawer"], _angular_material_core__WEBPACK_IMPORTED_MODULE_4__["MatRipple"], _angular_material_button__WEBPACK_IMPORTED_MODULE_5__["MatButton"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_6__["MatToolbar"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_7__["MatIcon"], _angular_material_badge__WEBPACK_IMPORTED_MODULE_8__["MatBadge"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_9__["MatFormField"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_10__["MatChipList"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_10__["MatChip"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_10__["MatChipRemove"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_10__["MatChipInput"], _angular_common__WEBPACK_IMPORTED_MODULE_11__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_12__["RouterOutlet"], _angular_material_card__WEBPACK_IMPORTED_MODULE_13__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_13__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_13__["MatCardAvatar"], _angular_material_card__WEBPACK_IMPORTED_MODULE_13__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_13__["MatCardSubtitle"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_14__["MatTooltip"], _angular_material_card__WEBPACK_IMPORTED_MODULE_13__["MatCardContent"], _angular_material_card__WEBPACK_IMPORTED_MODULE_13__["MatCardActions"]], styles: [".planner[_ngcontent-%COMP%] {\n  background-image: url('planner.png');\n  width: 100vw;\n  height: 100vh;\n}\n\n.button[_ngcontent-%COMP%] {\n  width: 121px;\n  height: 115px;\n  position: fixed;\n  z-index: 3;\n  left: 156px;\n  top: 167px;\n  background-image: url('110.png');\n  transition: 0.2s ease;\n}\n\n.button[_ngcontent-%COMP%]:hover {\n  transform: scale(1.1);\n}\n\n.chat[_ngcontent-%COMP%] {\n  position: fixed;\n  background-color: #222;\n  right: 40px;\n  bottom: 0;\n  width: 161px;\n  height: 20px;\n  padding: 40px;\n  font-weight: bold;\n  border-top-left-radius: 30px;\n  border-top-right-radius: 30px;\n  color: white;\n  text-align: center;\n  font-size: x-large;\n  transition: 0.2s ease;\n}\n\n.chat[_ngcontent-%COMP%]:hover {\n  height: 40px;\n}\n\n.bottom[_ngcontent-%COMP%], .side[_ngcontent-%COMP%] {\n  background-color: white;\n  position: fixed;\n}\n\n.body[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  align-content: center;\n}\n\n.body[_ngcontent-%COMP%]   .mat-toolbar[_ngcontent-%COMP%] {\n  margin-bottom: 200px;\n}\n\n.body[_ngcontent-%COMP%]   .mat-toolbar[_ngcontent-%COMP%]   .cart[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 50px;\n}\n\n.body[_ngcontent-%COMP%]   .fab[_ngcontent-%COMP%] {\n  position: fixed;\n  right: 70px;\n  bottom: 70px;\n}\n\n.body[_ngcontent-%COMP%]   .side-container[_ngcontent-%COMP%] {\n  height: 100%;\n  position: fixed;\n}\n\n.courses[_ngcontent-%COMP%] {\n  width: 80%;\n  display: flex;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 20px;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%] {\n  width: 25%;\n  margin: 10px;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-content[_ngcontent-%COMP%] {\n  text-align: justify;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%] {\n  text-align: left;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%]   .enrol-now[_ngcontent-%COMP%] {\n  height: -webkit-min-content;\n  height: min-content;\n  right: 40px;\n  position: absolute;\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%]   .enrol-now[_ngcontent-%COMP%]   *[_ngcontent-%COMP%] {\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   .blue-btn[_ngcontent-%COMP%] {\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   .blue-btn[_ngcontent-%COMP%]   *[_ngcontent-%COMP%] {\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   .mat-card-title[_ngcontent-%COMP%] {\n  color: #00467f;\n}\n\n.mat-drawer[_ngcontent-%COMP%] {\n  align-content: center;\n  display: flex;\n}\n\n.mat-drawer[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  padding: 30px;\n  margin: 0;\n  border-bottom: #888 solid 1px;\n  cursor: pointer;\n}\n\n.mat-drawer[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  margin-left: 65px;\n  margin-top: 30px;\n}\n\nmat-drawer-container[_ngcontent-%COMP%] {\n  height: 100vh;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG9DQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QUFDRjs7QUFFQTtFQUNFLFlBQUE7RUFDQSxhQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7RUFDQSxXQUFBO0VBQ0EsVUFBQTtFQUNBLGdDQUFBO0VBQ0EscUJBQUE7QUFDRjs7QUFFQTtFQUNFLHFCQUFBO0FBQ0Y7O0FBRUE7RUFDRSxlQUFBO0VBQ0Esc0JBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsNEJBQUE7RUFDQSw2QkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7QUFDRjs7QUFFQTtFQUNFLFlBQUE7QUFDRjs7QUFFQTs7RUFFRSx1QkFBQTtFQUNBLGVBQUE7QUFDRjs7QUFFQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0VBRUEsa0JBQUE7RUFDQSxxQkFBQTtBQUFGOztBQUVFO0VBQ0Usb0JBQUE7QUFBSjs7QUFFSTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtBQUFOOztBQUlFO0VBQ0UsZUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0FBRko7O0FBS0U7RUFDRSxZQUFBO0VBQ0EsZUFBQTtBQUhKOztBQU9BO0VBQ0UsVUFBQTtFQUNBLGFBQUE7RUF1QkEsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FBMUJGOztBQUVFO0VBQ0UsVUFBQTtFQUNBLFlBQUE7QUFBSjs7QUFDSTtFQUNFLG1CQUFBO0FBQ047O0FBRUk7RUFDRSxnQkFBQTtBQUFOOztBQUVNO0VBQ0UsMkJBQUE7RUFBQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtFQUNBLHVCQUFBO0FBQVI7O0FBRVE7RUFDRSx1QkFBQTtBQUFWOztBQVNFO0VBQ0UsdUJBQUE7QUFQSjs7QUFTSTtFQUNFLHVCQUFBO0FBUE47O0FBV0U7RUFDRSxjQUFBO0FBVEo7O0FBYUE7RUFFRSxxQkFBQTtFQUNBLGFBQUE7QUFYRjs7QUFZRTtFQUNFLGFBQUE7RUFDQSxTQUFBO0VBQ0EsNkJBQUE7RUFDQSxlQUFBO0FBVko7O0FBWUU7RUFDRSxpQkFBQTtFQUNBLGdCQUFBO0FBVko7O0FBY0E7RUFDRSxhQUFBO0FBWEYiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBsYW5uZXIge1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuLy4uL2Fzc2V0cy9wbGFubmVyLnBuZ1wiKTtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xufVxuXG4uYnV0dG9uIHtcbiAgd2lkdGg6IDEyMXB4O1xuICBoZWlnaHQ6IDExNXB4O1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIHotaW5kZXg6IDM7XG4gIGxlZnQ6IDE1NnB4O1xuICB0b3A6IDE2N3B4O1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuLy4uL2Fzc2V0cy8xMTAucG5nXCIpO1xuICB0cmFuc2l0aW9uOiAwLjJzIGVhc2U7XG59XG5cbi5idXR0b246aG92ZXIge1xuICB0cmFuc2Zvcm06IHNjYWxlKDEuMSk7XG59XG5cbi5jaGF0IHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjIyO1xuICByaWdodDogNDBweDtcbiAgYm90dG9tOiAwO1xuICB3aWR0aDogMTYxcHg7XG4gIGhlaWdodDogMjBweDtcbiAgcGFkZGluZzogNDBweDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDMwcHg7XG4gIGJvcmRlci10b3AtcmlnaHQtcmFkaXVzOiAzMHB4O1xuICBjb2xvcjogd2hpdGU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiB4LWxhcmdlO1xuICB0cmFuc2l0aW9uOiAwLjJzIGVhc2U7XG59XG5cbi5jaGF0OmhvdmVyIHtcbiAgaGVpZ2h0OiA0MHB4O1xufVxuXG4uYm90dG9tLFxuLnNpZGUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgcG9zaXRpb246IGZpeGVkO1xufVxuXG4uYm9keSB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG5cbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XG5cbiAgLm1hdC10b29sYmFyIHtcbiAgICBtYXJnaW4tYm90dG9tOiAyMDBweDtcblxuICAgIC5jYXJ0IHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIHJpZ2h0OiA1MHB4O1xuICAgIH1cbiAgfVxuXG4gIC5mYWIge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICByaWdodDogNzBweDtcbiAgICBib3R0b206IDcwcHg7XG4gIH1cblxuICAuc2lkZS1jb250YWluZXIge1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gIH1cbn1cblxuLmNvdXJzZXMge1xuICB3aWR0aDogODAlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBtYXQtY2FyZCB7XG4gICAgd2lkdGg6IDI1JTtcbiAgICBtYXJnaW46IDEwcHg7XG4gICAgbWF0LWNhcmQtY29udGVudCB7XG4gICAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5O1xuICAgIH1cblxuICAgIG1hdC1jYXJkLWhlYWRlciB7XG4gICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuXG4gICAgICAuZW5yb2wtbm93IHtcbiAgICAgICAgaGVpZ2h0OiBtaW4tY29udGVudDtcbiAgICAgICAgcmlnaHQ6IDQwcHg7XG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XG5cbiAgICAgICAgKiB7XG4gICAgICAgICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi1yaWdodDogYXV0bztcbiAgbWFyZ2luLXRvcDogMjBweDtcblxuICAuYmx1ZS1idG4ge1xuICAgIGNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xuXG4gICAgKiB7XG4gICAgICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcbiAgICB9XG4gIH1cblxuICAubWF0LWNhcmQtdGl0bGUge1xuICAgIGNvbG9yOiAjMDA0NjdmO1xuICB9XG59XG5cbi5tYXQtZHJhd2VyIHtcbiAgLy8gcGFkZGluZy10b3A6IDIwcHg7XG4gIGFsaWduLWNvbnRlbnQ6IGNlbnRlcjtcbiAgZGlzcGxheTogZmxleDtcbiAgcCB7XG4gICAgcGFkZGluZzogMzBweDtcbiAgICBtYXJnaW46IDA7XG4gICAgYm9yZGVyLWJvdHRvbTogIzg4OCBzb2xpZCAxcHg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG4gIGJ1dHRvbiB7XG4gICAgbWFyZ2luLWxlZnQ6IDY1cHg7XG4gICAgbWFyZ2luLXRvcDogMzBweDtcbiAgfVxufVxuXG5tYXQtZHJhd2VyLWNvbnRhaW5lciB7XG4gIGhlaWdodDogMTAwdmg7XG59XG4iXX0= */"] });
+    } }, directives: [_angular_material_sidenav__WEBPACK_IMPORTED_MODULE_3__["MatDrawerContainer"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_3__["MatDrawer"], _angular_material_core__WEBPACK_IMPORTED_MODULE_4__["MatRipple"], _angular_material_button__WEBPACK_IMPORTED_MODULE_5__["MatButton"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_6__["MatToolbar"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_7__["MatIcon"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_8__["MatTooltip"], _angular_material_badge__WEBPACK_IMPORTED_MODULE_9__["MatBadge"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_10__["MatFormField"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_11__["MatChipList"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_11__["MatChip"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_11__["MatChipRemove"], _angular_material_chips__WEBPACK_IMPORTED_MODULE_11__["MatChipInput"], _angular_common__WEBPACK_IMPORTED_MODULE_12__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_13__["RouterOutlet"], _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCardAvatar"], _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCardSubtitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCardContent"], _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCardActions"]], styles: [".planner[_ngcontent-%COMP%] {\n  background-image: url('planner.png');\n  width: 100vw;\n  height: 100vh;\n}\n\n.button[_ngcontent-%COMP%] {\n  width: 121px;\n  height: 115px;\n  position: fixed;\n  z-index: 3;\n  left: 156px;\n  top: 167px;\n  background-image: url('110.png');\n  transition: 0.2s ease;\n}\n\n.button[_ngcontent-%COMP%]:hover {\n  transform: scale(1.1);\n}\n\n.chat[_ngcontent-%COMP%] {\n  position: fixed;\n  background-color: #222;\n  right: 40px;\n  bottom: 0;\n  width: 161px;\n  height: 20px;\n  padding: 40px;\n  font-weight: bold;\n  border-top-left-radius: 30px;\n  border-top-right-radius: 30px;\n  color: white;\n  text-align: center;\n  font-size: x-large;\n  transition: 0.2s ease;\n}\n\n.chat[_ngcontent-%COMP%]:hover {\n  height: 40px;\n}\n\n.bottom[_ngcontent-%COMP%], .side[_ngcontent-%COMP%] {\n  background-color: white;\n  position: fixed;\n}\n\n.body[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  text-align: center;\n  align-content: center;\n}\n\n.body[_ngcontent-%COMP%]   .mat-toolbar[_ngcontent-%COMP%] {\n  margin-bottom: 200px;\n}\n\n.body[_ngcontent-%COMP%]   .mat-toolbar[_ngcontent-%COMP%]   .cart[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 50px;\n}\n\n.body[_ngcontent-%COMP%]   .fab[_ngcontent-%COMP%] {\n  position: fixed;\n  right: 70px;\n  bottom: 70px;\n}\n\n.body[_ngcontent-%COMP%]   .side-container[_ngcontent-%COMP%] {\n  height: 100%;\n  position: fixed;\n}\n\n.courses[_ngcontent-%COMP%] {\n  width: 85%;\n  display: flex;\n  flex-wrap: wrap;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 20px;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%] {\n  width: 22%;\n  margin: 0.5%;\n  margin-bottom: 40px;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-content[_ngcontent-%COMP%] {\n  text-align: justify;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%] {\n  text-align: left;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%]   .enrol-now[_ngcontent-%COMP%] {\n  height: -webkit-min-content;\n  height: min-content;\n  right: 40px;\n  position: absolute;\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%]   .enrol-now[_ngcontent-%COMP%]   *[_ngcontent-%COMP%] {\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%]   .req-true[_ngcontent-%COMP%] {\n  color: red;\n}\n\n.courses[_ngcontent-%COMP%]   mat-card[_ngcontent-%COMP%]   mat-card-header[_ngcontent-%COMP%]   .req-false[_ngcontent-%COMP%] {\n  color: green;\n}\n\n.courses[_ngcontent-%COMP%]   .blue-btn[_ngcontent-%COMP%] {\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   .blue-btn[_ngcontent-%COMP%]   *[_ngcontent-%COMP%] {\n  color: white !important;\n}\n\n.courses[_ngcontent-%COMP%]   .mat-card-title[_ngcontent-%COMP%] {\n  color: #00467f;\n}\n\n.mat-drawer[_ngcontent-%COMP%] {\n  align-content: center;\n  display: flex;\n}\n\n.mat-drawer[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  padding: 30px;\n  margin: 0;\n  border-bottom: #888 solid 1px;\n  cursor: pointer;\n}\n\n.mat-drawer[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  margin-left: 65px;\n  margin-top: 30px;\n}\n\nmat-drawer-container[_ngcontent-%COMP%] {\n  height: 100vh;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG9DQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QUFDRjs7QUFFQTtFQUNFLFlBQUE7RUFDQSxhQUFBO0VBQ0EsZUFBQTtFQUNBLFVBQUE7RUFDQSxXQUFBO0VBQ0EsVUFBQTtFQUNBLGdDQUFBO0VBQ0EscUJBQUE7QUFDRjs7QUFFQTtFQUNFLHFCQUFBO0FBQ0Y7O0FBRUE7RUFDRSxlQUFBO0VBQ0Esc0JBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGlCQUFBO0VBQ0EsNEJBQUE7RUFDQSw2QkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7QUFDRjs7QUFFQTtFQUNFLFlBQUE7QUFDRjs7QUFFQTs7RUFFRSx1QkFBQTtFQUNBLGVBQUE7QUFDRjs7QUFFQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0VBRUEsa0JBQUE7RUFDQSxxQkFBQTtBQUFGOztBQUVFO0VBQ0Usb0JBQUE7QUFBSjs7QUFFSTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtBQUFOOztBQUlFO0VBQ0UsZUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0FBRko7O0FBS0U7RUFDRSxZQUFBO0VBQ0EsZUFBQTtBQUhKOztBQU9BO0VBQ0UsVUFBQTtFQUNBLGFBQUE7RUFDQSxlQUFBO0VBaUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtBQXBDRjs7QUFHRTtFQUNFLFVBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7QUFESjs7QUFFSTtFQUNFLG1CQUFBO0FBQU47O0FBR0k7RUFDRSxnQkFBQTtBQUROOztBQUdNO0VBQ0UsMkJBQUE7RUFBQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtFQUNBLHVCQUFBO0FBRFI7O0FBR1E7RUFDRSx1QkFBQTtBQURWOztBQUtNO0VBQ0UsVUFBQTtBQUhSOztBQU1NO0VBQ0UsWUFBQTtBQUpSOztBQVlFO0VBQ0UsdUJBQUE7QUFWSjs7QUFZSTtFQUNFLHVCQUFBO0FBVk47O0FBY0U7RUFDRSxjQUFBO0FBWko7O0FBZ0JBO0VBRUUscUJBQUE7RUFDQSxhQUFBO0FBZEY7O0FBZUU7RUFDRSxhQUFBO0VBQ0EsU0FBQTtFQUNBLDZCQUFBO0VBQ0EsZUFBQTtBQWJKOztBQWVFO0VBQ0UsaUJBQUE7RUFDQSxnQkFBQTtBQWJKOztBQWlCQTtFQUNFLGFBQUE7QUFkRiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGxhbm5lciB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybChcIi4vLi4vYXNzZXRzL3BsYW5uZXIucG5nXCIpO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG59XG5cbi5idXR0b24ge1xuICB3aWR0aDogMTIxcHg7XG4gIGhlaWdodDogMTE1cHg7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgei1pbmRleDogMztcbiAgbGVmdDogMTU2cHg7XG4gIHRvcDogMTY3cHg7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybChcIi4vLi4vYXNzZXRzLzExMC5wbmdcIik7XG4gIHRyYW5zaXRpb246IDAuMnMgZWFzZTtcbn1cblxuLmJ1dHRvbjpob3ZlciB7XG4gIHRyYW5zZm9ybTogc2NhbGUoMS4xKTtcbn1cblxuLmNoYXQge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyMjI7XG4gIHJpZ2h0OiA0MHB4O1xuICBib3R0b206IDA7XG4gIHdpZHRoOiAxNjFweDtcbiAgaGVpZ2h0OiAyMHB4O1xuICBwYWRkaW5nOiA0MHB4O1xuICBmb250LXdlaWdodDogYm9sZDtcbiAgYm9yZGVyLXRvcC1sZWZ0LXJhZGl1czogMzBweDtcbiAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDMwcHg7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LXNpemU6IHgtbGFyZ2U7XG4gIHRyYW5zaXRpb246IDAuMnMgZWFzZTtcbn1cblxuLmNoYXQ6aG92ZXIge1xuICBoZWlnaHQ6IDQwcHg7XG59XG5cbi5ib3R0b20sXG4uc2lkZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICBwb3NpdGlvbjogZml4ZWQ7XG59XG5cbi5ib2R5IHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTAwJTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcblxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGFsaWduLWNvbnRlbnQ6IGNlbnRlcjtcblxuICAubWF0LXRvb2xiYXIge1xuICAgIG1hcmdpbi1ib3R0b206IDIwMHB4O1xuXG4gICAgLmNhcnQge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgcmlnaHQ6IDUwcHg7XG4gICAgfVxuICB9XG5cbiAgLmZhYiB7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHJpZ2h0OiA3MHB4O1xuICAgIGJvdHRvbTogNzBweDtcbiAgfVxuXG4gIC5zaWRlLWNvbnRhaW5lciB7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgfVxufVxuXG4uY291cnNlcyB7XG4gIHdpZHRoOiA4NSU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtd3JhcDogd3JhcDtcblxuICBtYXQtY2FyZCB7XG4gICAgd2lkdGg6IDIyJTtcbiAgICBtYXJnaW46IDAuNSU7XG4gICAgbWFyZ2luLWJvdHRvbTogNDBweDtcbiAgICBtYXQtY2FyZC1jb250ZW50IHtcbiAgICAgIHRleHQtYWxpZ246IGp1c3RpZnk7XG4gICAgfVxuXG4gICAgbWF0LWNhcmQtaGVhZGVyIHtcbiAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG5cbiAgICAgIC5lbnJvbC1ub3cge1xuICAgICAgICBoZWlnaHQ6IG1pbi1jb250ZW50O1xuICAgICAgICByaWdodDogNDBweDtcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcblxuICAgICAgICAqIHtcbiAgICAgICAgICBjb2xvcjogd2hpdGUgIWltcG9ydGFudDtcbiAgICAgICAgfVxuICAgICAgfVxuXG4gICAgICAucmVxLXRydWUge1xuICAgICAgICBjb2xvcjogcmVkO1xuICAgICAgfVxuXG4gICAgICAucmVxLWZhbHNlIHtcbiAgICAgICAgY29sb3I6IGdyZWVuO1xuICAgICAgfVxuICAgIH1cbiAgfVxuICBtYXJnaW4tbGVmdDogYXV0bztcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICBtYXJnaW4tdG9wOiAyMHB4O1xuXG4gIC5ibHVlLWJ0biB7XG4gICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XG5cbiAgICAqIHtcbiAgICAgIGNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xuICAgIH1cbiAgfVxuXG4gIC5tYXQtY2FyZC10aXRsZSB7XG4gICAgY29sb3I6ICMwMDQ2N2Y7XG4gIH1cbn1cblxuLm1hdC1kcmF3ZXIge1xuICAvLyBwYWRkaW5nLXRvcDogMjBweDtcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xuICBkaXNwbGF5OiBmbGV4O1xuICBwIHtcbiAgICBwYWRkaW5nOiAzMHB4O1xuICAgIG1hcmdpbjogMDtcbiAgICBib3JkZXItYm90dG9tOiAjODg4IHNvbGlkIDFweDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cbiAgYnV0dG9uIHtcbiAgICBtYXJnaW4tbGVmdDogNjVweDtcbiAgICBtYXJnaW4tdG9wOiAzMHB4O1xuICB9XG59XG5cbm1hdC1kcmF3ZXItY29udGFpbmVyIHtcbiAgaGVpZ2h0OiAxMDB2aDtcbn1cbiJdfQ== */"] });
 
 
 /***/ }),
@@ -337,7 +367,7 @@ class ModalComponent {
     ngOnInit() { }
 }
 ModalComponent.ɵfac = function ModalComponent_Factory(t) { return new (t || ModalComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_0__["MAT_DIALOG_DATA"])); };
-ModalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ModalComponent, selectors: [["app-modal"]], decls: 168, vars: 10, consts: [[1, "mat-typography", "relative"], ["src", ""], ["mat-raised-button", "", "color", "primary", 1, "white-text", "enrol"], [1, "paragraph"], ["href", "https://www.library.auckland.ac.nz/search/compsci 110", 1, "past-papers", "hover", "no-active"], ["xmlns", "http://www.w3.org/2000/svg", "width", "16", "height", "16", "fill", "currentColor", "viewBox", "0 0 16 16", 1, "bi", "bi-file-earmark-arrow-down-fill", "hover"], ["d", "M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z"], [4, "ngFor", "ngForOf"], [1, "graph"], [1, "row", "hover"], [1, "bar5"], [1, "bar4"], [1, "row"], [1, "bar3"], [1, "bar2"], [1, "bar1"], [1, "example-headers-align"], [3, "expanded"], ["xmlns", "http://www.w3.org/2000/svg", "width", "16", "height", "16", "fill", "currentColor", "viewBox", "0 0 16 16", 1, "bi", "bi-star-fill"], ["d", "M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"], ["src", "../../assets/timtable.png", 1, "timetable"], ["src", "../../assets/map.png"], [1, "flex"], [1, "small", "person-card"], ["mat-card-avatar", "", 1, "example-header-image"], ["mat-card-image", "", "src", "../../assets/human.jpeg", "alt", "Photo of Robert"], ["mat-button", ""], ["mat-card-image", "", "src", "../../assets/person.jpeg", "alt", "Photo of Robert"]], template: function ModalComponent_Template(rf, ctx) { if (rf & 1) {
+ModalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ModalComponent, selectors: [["app-modal"]], decls: 168, vars: 11, consts: [[1, "mat-typography", "relative"], ["src", ""], ["mat-raised-button", "", "color", "primary", 1, "white-text", "enrol"], [1, "paragraph"], [1, "past-papers", "hover", "no-active", 3, "href"], ["xmlns", "http://www.w3.org/2000/svg", "width", "16", "height", "16", "fill", "currentColor", "viewBox", "0 0 16 16", 1, "bi", "bi-file-earmark-arrow-down-fill", "hover"], ["d", "M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z"], [4, "ngFor", "ngForOf"], [1, "graph"], [1, "row", "hover"], [1, "bar5"], [1, "bar4"], [1, "row"], [1, "bar3"], [1, "bar2"], [1, "bar1"], [1, "example-headers-align"], [3, "expanded"], ["xmlns", "http://www.w3.org/2000/svg", "width", "16", "height", "16", "fill", "currentColor", "viewBox", "0 0 16 16", 1, "bi", "bi-star-fill"], ["d", "M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"], ["src", "../../assets/timtable.png", 1, "timetable"], ["src", "../../assets/map.png"], [1, "flex"], [1, "small", "person-card"], ["mat-card-avatar", "", 1, "example-header-image"], ["mat-card-image", "", "src", "../../assets/human.jpeg", "alt", "Photo of Robert"], ["mat-button", ""], ["mat-card-image", "", "src", "../../assets/person.jpeg", "alt", "Photo of Robert"]], template: function ModalComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-dialog-content", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h1");
@@ -597,7 +627,9 @@ ModalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.course.subTitle);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx.course.description, " ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate1"]("href", "https://www.library.auckland.ac.nz/search/", ctx.course.title, "", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.course.stars);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](28);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("expanded", true);
