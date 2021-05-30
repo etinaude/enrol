@@ -1,100 +1,114 @@
-<div class="body">
-  <mat-toolbar>
-    <button
-      mat-icon-button
-      class="example-icon"
-      aria-label="Example icon-button with menu icon"
-    >
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span>Hi Fredrick</span>
-    <span class="example-spacer"></span>
-    <button
-      mat-icon-button
-      class="cart"
-      aria-label="Example icon-button with heart icon"
-    >
-      <mat-icon matBadge="1">shopping_cart</mat-icon>
-    </button>
-    <button
-      mat-icon-button
-      class="example-icon"
-      aria-label="Example icon-button with share icon"
-    ></button>
-  </mat-toolbar>
+<mat-drawer-container class="side-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p matRipple>My timetable</p>
+    <p matRipple>My degree requirements</p>
+    <p matRipple>Change degree</p>
+    <p matRipple>Course catalog</p>
+    <p matRipple>Concessions</p>
+    <p matRipple>My grades</p>
 
-  <h2>
-    Your currently doing a BSc Majoring in Computer Science conjoint with BDes
-
-    <button mat-button>
-      <mat-icon aria-hidden="false" aria-label="Example pencil icon"
-        >edit</mat-icon
-      >change
-    </button>
-  </h2>
-
-  <h2>The Courses you still need to complete are</h2>
-
-  <mat-form-field class="center">
-    <mat-chip-list #chipList>
-      <mat-chip [selectable]="true" [removable]="true"
-        >Core courses <mat-icon matChipRemove>cancel</mat-icon></mat-chip
+    <button mat-raised-button color="primary">Log out</button>
+  </mat-drawer>
+  <div class="body">
+    <mat-toolbar>
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
       >
-      <mat-chip [selectable]="true" [removable]="true"
-        >Design <mat-icon matChipRemove>cancel</mat-icon></mat-chip
+        <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+      </button>
+      <span>Hi Fredrick</span>
+      <span class="example-spacer"></span>
+      <button
+        mat-icon-button
+        class="cart"
+        aria-label="Example icon-button with heart icon"
       >
-      <mat-chip [selectable]="true" [removable]="true"
-        >Met Pre-requirements
-        <mat-icon matChipRemove>cancel</mat-icon></mat-chip
-      >
-      <input placeholder="Filter courses" [matChipInputFor]="chipList" />
-    </mat-chip-list>
-  </mat-form-field>
+        <mat-icon matBadge="1">shopping_cart</mat-icon>
+      </button>
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with share icon"
+      ></button>
+    </mat-toolbar>
 
-  <div class="courses">
-    <mat-card
-      *ngFor="let course of courses"
-      class="complete-{{ course.complete }}"
-    >
-      <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title (click)="showModal(course)">{{
-          course.title
-        }}</mat-card-title>
-        <mat-card-subtitle
-          >{{ course.subTitle }}
-          <br />
-          {{ course.points }} points
-          <br />
-          {{ course.prereq }}
-          <br />
-          <mat-icon *ngFor="let i of course.stars">star</mat-icon>
-        </mat-card-subtitle>
+    <h2>
+      Your currently Studying towards a BDes
 
-        <button
-          disabled="{{ course.complete }}"
-          mat-raised-button
-          color="primary"
-          class="enrol-now"
-          matTooltip="{{ course.complete ? 'Already complete' : 'Available' }}"
+      <button mat-button>
+        <mat-icon aria-hidden="false" aria-label="Example pencil icon"
+          >edit</mat-icon
+        >change
+      </button>
+    </h2>
+
+    <mat-form-field class="center">
+      <mat-chip-list #chipList>
+        <mat-chip [selectable]="true" [removable]="true"
+          >Core courses <mat-icon matChipRemove>cancel</mat-icon></mat-chip
         >
-          Add to cart
-        </button>
-      </mat-card-header>
-      <mat-card-content> {{ course.description }}</mat-card-content>
+        <mat-chip [selectable]="true" [removable]="true"
+          >Design <mat-icon matChipRemove>cancel</mat-icon></mat-chip
+        >
+        <mat-chip [selectable]="true" [removable]="true"
+          >Met Pre-requirements
+          <mat-icon matChipRemove>cancel</mat-icon></mat-chip
+        >
+        <input placeholder="Filter courses" [matChipInputFor]="chipList" />
+      </mat-chip-list>
+    </mat-form-field>
 
-      <mat-card-actions>
-        <button mat-raised-button color="primary" (click)="showModal(course)">
-          More Info
-        </button>
-        <button mat-raised-button color="primary">
-          <mat-icon>share</mat-icon>
-          Share
-        </button>
-      </mat-card-actions>
-    </mat-card>
+    <div class="courses">
+      <mat-card
+        *ngFor="let course of courses"
+        class="complete-{{ course.complete }}"
+      >
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title (click)="showModal(course)">{{
+            course.title
+          }}</mat-card-title>
+          <mat-card-subtitle
+            >{{ course.subTitle }}
+            <br />
+            {{ course.points }} points
+            <br />
+            {{ course.prereq }}
+            <br />
+            <mat-icon *ngFor="let i of course.stars">star</mat-icon>
+          </mat-card-subtitle>
+
+          <button
+            disabled="{{ course.complete }}"
+            mat-raised-button
+            color="primary"
+            class="enrol-now"
+            matTooltip="{{
+              course.complete ? 'Already complete' : 'Available'
+            }}"
+          >
+            Add to cart
+          </button>
+        </mat-card-header>
+        <mat-card-content> {{ course.description }}</mat-card-content>
+
+        <mat-card-actions>
+          <button mat-raised-button color="primary" (click)="showModal(course)">
+            More Info
+          </button>
+          <button mat-raised-button color="primary">
+            <mat-icon>share</mat-icon>
+            Share
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <button mat-fab color="primary" class="fab">
+      <mat-icon>help</mat-icon>
+    </button>
   </div>
-  <button mat-fab color="primary" class="fab"><mat-icon>help</mat-icon></button>
-</div>
+</mat-drawer-container>
 
 <router-outlet></router-outlet>
