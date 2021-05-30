@@ -77,11 +77,14 @@
 }
 
 .courses {
-  width: 80%;
+  width: 85%;
   display: flex;
+  flex-wrap: wrap;
+
   mat-card {
-    width: 25%;
-    margin: 10px;
+    width: 22%;
+    margin: 0.5%;
+    margin-bottom: 40px;
     mat-card-content {
       text-align: justify;
     }
@@ -98,6 +101,14 @@
         * {
           color: white !important;
         }
+      }
+
+      .req-true {
+        color: red;
+      }
+
+      .req-false {
+        color: green;
       }
     }
   }
