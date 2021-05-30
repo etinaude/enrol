@@ -76,7 +76,7 @@ a:visited {
 .past-papers:active {
   text-decoration: none !important;
   font-weight: bold !important;
-  color: white !important;
+  color: #555 !important;
 }
 
 .hover {
@@ -89,4 +89,18 @@ a:visited {
 
 .no-active:focus {
   outline: none;
+}
+
+.enrol {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.relative {
+  position: relative;
+}
+
+.timetable {
+  padding-right: 100px;
 }
