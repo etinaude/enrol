@@ -10,6 +10,7 @@ export interface courseType {
   stars: number[];
   required: boolean;
   prereq: string;
+  complete: boolean;
 }
 @Component({
   selector: 'app-root',
@@ -18,7 +19,7 @@ export interface courseType {
 })
 export class AppComponent {
   title = 'enrol';
-  courses = [
+  courses: courseType[] = [
     {
       title: 'DESIGN 100',
       subTitle: 'Design Methods and Processes 1',
@@ -28,6 +29,7 @@ export class AppComponent {
       stars: Array(5).fill(4),
       required: true,
       prereq: '',
+      complete: true,
     },
     {
       title: 'DESIGN 101',
@@ -38,6 +40,7 @@ export class AppComponent {
       stars: Array(4).fill(4),
       required: true,
       prereq: '',
+      complete: true,
     },
     {
       title: 'DESIGN 200',
@@ -48,6 +51,7 @@ export class AppComponent {
       stars: Array(2).fill(4),
       required: true,
       prereq: 'Prerequisite: DESIGN 100, 101',
+      complete: false,
     },
     {
       title: 'DESIGN 201',
@@ -58,6 +62,7 @@ export class AppComponent {
       stars: Array(1).fill(4),
       required: true,
       prereq: 'Prerequisite: DESIGN 100, 101',
+      complete: false,
     },
   ];
 
