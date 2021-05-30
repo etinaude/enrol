@@ -23,6 +23,7 @@
       <button
         mat-icon-button
         class="cart"
+        matTooltip="Enrolment cart"
         aria-label="Example icon-button with heart icon"
       >
         <mat-icon matBadge="1">shopping_cart</mat-icon>
@@ -49,13 +50,6 @@
         <mat-chip [selectable]="true" [removable]="true"
           >Core courses <mat-icon matChipRemove>cancel</mat-icon></mat-chip
         >
-        <mat-chip [selectable]="true" [removable]="true"
-          >Design <mat-icon matChipRemove>cancel</mat-icon></mat-chip
-        >
-        <mat-chip [selectable]="true" [removable]="true"
-          >Met Pre-requirements
-          <mat-icon matChipRemove>cancel</mat-icon></mat-chip
-        >
         <input placeholder="Filter courses" [matChipInputFor]="chipList" />
       </mat-chip-list>
     </mat-form-field>
@@ -75,8 +69,9 @@
             <br />
             {{ course.points }} points
             <br />
-            {{ course.prereq }}
-            <br />
+            <p [class]="'req-' + course.needReq">
+              {{ course.prereq }}
+            </p>
             <mat-icon *ngFor="let i of course.stars">star</mat-icon>
           </mat-card-subtitle>
 
@@ -85,11 +80,8 @@
             mat-raised-button
             color="primary"
             class="enrol-now"
-            matTooltip="{{
-              course.complete ? 'Already complete' : 'Available'
-            }}"
           >
-            Add to cart
+            {{ course.status }}
           </button>
         </mat-card-header>
         <mat-card-content> {{ course.description }}</mat-card-content>
@@ -105,7 +97,7 @@
         </mat-card-actions>
       </mat-card>
     </div>
-    <button mat-fab color="primary" class="fab">
+    <button mat-fab color="primary" class="fab" matTooltip="Get help">
       <mat-icon>help</mat-icon>
     </button>
   </div>
