@@ -1,21 +1,63 @@
-<div class="planner">&nbsp;</div>
-<div class="button" (click)="showModal()"></div>
-<div class="chat">
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="16"
-    height="16"
-    fill="currentColor"
-    class="bi bi-chat-dots-fill"
-    viewBox="0 0 16 16"
-  >
-    <path
-      d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-    />
-  </svg>
-  CHAT NOW
+<div class="body">
+  <h1>Hi Fredrick!</h1>
+  <h2>
+    Your currently doing a BSc Majoring in Computer Science conjoint with BDes
+
+    <button mat-button>
+      <mat-icon aria-hidden="false" aria-label="Example pencil icon"
+        >edit</mat-icon
+      >change
+    </button>
+  </h2>
+
+  <h2>The Courses you still need to complete are</h2>
+
+  <mat-form-field class="center">
+    <mat-chip-list #chipList>
+      <mat-chip [selectable]="true" [removable]="true"
+        >Core courses <mat-icon matChipRemove>cancel</mat-icon></mat-chip
+      >
+      <mat-chip [selectable]="true" [removable]="true"
+        >Design <mat-icon matChipRemove>cancel</mat-icon></mat-chip
+      >
+      <input placeholder="Filter courses" [matChipInputFor]="chipList" />
+    </mat-chip-list>
+  </mat-form-field>
+
+  <div class="courses">
+    <mat-card *ngFor="let course of courses">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title (click)="showModal(course)">{{
+          course.title
+        }}</mat-card-title>
+        <mat-card-subtitle
+          >{{ course.subTitle }}
+          <br />
+          {{ course.points }} points
+          <br />
+          {{ course.prereq }}
+          <br />
+          <mat-icon *ngFor="let i of course.stars">star</mat-icon>
+        </mat-card-subtitle>
+
+        <button mat-raised-button color="primary" class="enrol-now">
+          Add to cart
+        </button>
+      </mat-card-header>
+      <mat-card-content> {{ course.description }}</mat-card-content>
+
+      <mat-card-actions>
+        <button mat-raised-button class="blue-btn" (click)="showModal(course)">
+          More Info
+        </button>
+        <button mat-raised-button class="blue-btn">
+          <mat-icon>share</mat-icon>
+          Share
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
 </div>
-<div class="side"></div>
-<div class="bottom"></div>
 
 <router-outlet></router-outlet>
